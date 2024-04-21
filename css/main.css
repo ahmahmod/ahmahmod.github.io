@@ -90,7 +90,7 @@
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-green,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-green {
   color: #fff;
-  background: #18ce0f; }
+  background: #2CA8FF; }
 
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-orange,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-orange {
@@ -223,7 +223,7 @@
   background-color: #FFB236; }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-green ~ .bootstrap-switch-default {
-  background-color: #18ce0f; }
+  background-color: #2CA8FF; }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-brown ~ .bootstrap-switch-default {
   background-color: #0f1ace; }
@@ -484,7 +484,7 @@
   background-color: #378C3F; }
 
 .slider.slider-primary.noUi-target {
-  background-color: rgba(55, 140, 63, 0.4); }
+  background-color: rgba(0, 0, 255, 0.4); }
 
 .slider.slider-primary .noUi-handle {
   background-color: #378C3F; }
@@ -502,7 +502,7 @@
   background-color: #18ce0f; }
 
 .slider.slider-success.noUi-target {
-  background-color: rgba(24, 206, 15, 0.3); }
+  background-color: rgba(0, 0, 255, 0.3); }
 
 .slider.slider-success .noUi-handle {
   background-color: #18ce0f; }
@@ -2038,7 +2038,7 @@ textarea.form-control {
   .progress-container.progress-neutral .progress-badge {
     color: #FFFFFF; }
   .progress-container.progress-primary .progress {
-    background: rgba(55, 140, 63, 0.4); }
+    background: rgba(0, 0, 255, 0.4); }
   .progress-container.progress-primary .progress-bar {
     background: #020dde; }
   .progress-container.progress-primary .progress-value,
@@ -2052,7 +2052,7 @@ textarea.form-control {
   .progress-container.progress-info .progress-badge {
     color: #2CA8FF; }
   .progress-container.progress-success .progress {
-    background: rgba(24, 206, 15, 0.3); }
+    background: rgba(0, 0, 255, 0.3); }
   .progress-container.progress-success .progress-bar {
     background: #cbd2f5; }
   .progress-container.progress-success .progress-value,
@@ -2744,7 +2744,7 @@ body {
   padding-bottom: .9rem;
   position: relative; }
   .alert.alert-success {
-    background-color: rgba(24, 206, 15, 0.8); }
+    background-color: rgba(0, 0, 255, 0.8); }
   .alert.alert-danger {
     background-color: rgba(255, 54, 54, 0.8); }
   .alert.alert-warning {
@@ -5123,7 +5123,7 @@ Created using IcoMoon - icomoon.io
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6));
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(0, 0, 255, 0.6));
   /* Standard syntax */ }
   .page-header .btn {
     width: 140px; }
@@ -5153,7 +5153,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(55, 140, 63, 0.6);
+  border: 15px solid rgba(0, 0, 255, 0.6);
   border-radius: 50%;
   height: 180px;
   width: 180px;
