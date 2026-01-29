@@ -1,660 +1,1192 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- =========================
+         Meta / Title
+         ========================= -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Ahmad Mahmod</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
-    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
-    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+    <!-- =========================
+         Fonts & Icon Libraries
+         ========================= -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
+
+    <!-- =========================
+         Local CSS
+         ========================= -->
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet" />
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet" />
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet" />
+
+    <!-- =========================
+         Fallback when JS disabled (AOS animations)
+         ========================= -->
     <noscript>
-      <style type="text/css">
+      <style>
         [data-aos] {
-            opacity: 1 !important;
-            transform: translate(0) scale(1) !important;
+          opacity: 1 !important;
+          transform: translate(0) scale(1) !important;
         }
       </style>
     </noscript>
   </head>
 
-<script data-goatcounter="https://ahmahmod.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-  
   <body id="top">
+    <!-- =========================
+         Analytics / Counter (GoatCounter)
+         Note: moved inside <body> for valid HTML structure.
+         ========================= -->
+    <script
+      data-goatcounter="https://ahmahmod.goatcounter.com/count"
+      async
+      src="https://gc.zgo.at/count.js"
+    ></script>
+
+    <!-- =========================
+         Header / Navbar
+         ========================= -->
     <header>
       <div class="profile-page sidebar-collapse">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+        <nav
+          class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary"
+          color-on-scroll="400"
+        >
           <div class="container">
-            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">HOME</a>
-              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+            <div class="navbar-translate">
+              <a class="navbar-brand" href="#" rel="tooltip">HOME</a>
+
+              <!-- Mobile nav toggle -->
+              <button
+                class="navbar-toggler navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navigation"
+                aria-controls="navigation"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
             </div>
+
+            <!-- Nav links -->
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
               <ul class="navbar-nav">
-                 <!--<li class="nav-item"><a class="nav-link smooth-scroll" href="#news">News</a></li> -->
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#publications">Publications</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#teaching">Teaching</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#activities">Activities</a></li>
-                <!--<li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li> -->
+                <!-- <li class="nav-item"><a class="nav-link smooth-scroll" href="#news">News</a></li> -->
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#publications">Publications</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#teaching">Teaching</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#activities">Activities</a>
+                </li>
+                <!-- <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li> -->
               </ul>
             </div>
           </div>
         </nav>
       </div>
     </header>
-    <div class="page-content">
-      <div>
-<div class="profile-page">
-  <div class="wrapper">
-    <div class="page-header page-header-small" filter-color="blue">
-      <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg')"></div>
-      <div class="container">
-        <div class="content-center">
-          <div class="cc-profile-image"><a href="#"><img src="images/ahmad.jpg" alt="Image"/></a></div>
-          <div class="h2 title">Ahmad Mahmod</div>
-          <p class="category text-white">PhD Researcher, Networking</p>
-          <a class="btn btn-primary" href="my_cv.pdf" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">My Resume</a>
 
+    <!-- =========================
+         Main Page Content
+         ========================= -->
+    <main class="page-content">
+      <!-- =========================
+           Hero / Profile Header
+           ========================= -->
+      <section class="profile-page">
+        <div class="wrapper">
+          <div class="page-header page-header-small" filter-color="blue">
+            <div
+              class="page-header-image"
+              data-parallax="true"
+              style="background-image: url('images/cc-bg-1.jpg')"
+            ></div>
+
+            <div class="container">
+              <div class="content-center">
+                <div class="cc-profile-image">
+                  <a href="#"><img src="images/ahmad.jpg" alt="Ahmad Mahmod" /></a>
+                </div>
+                <div class="h2 title">Ahmad Mahmod</div>
+                <p class="category text-white">PhD Researcher, Networking</p>
+                <a
+                  class="btn btn-primary"
+                  href="my_cv.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  data-aos="zoom-in"
+                  data-aos-anchor="data-aos-anchor"
+                >
+                  My Resume
+                </a>
+              </div>
+            </div>
+
+            <!-- Social links -->
+            <div class="section">
+              <div class="container">
+                <div class="button-container">
+                  <a
+                    class="btn btn-default btn-round btn-lg btn-icon"
+                    href="https://scholar.google.com/citations?user=WNFGT_YAAAAJ&hl=en"
+                    target="_blank"
+                    rel="noopener"
+                    title="Google Scholar"
+                  >
+                    <i class="ai ai-google-scholar fa"></i>
+                  </a>
+
+                  <a
+                    class="btn btn-default btn-round btn-lg btn-icon"
+                    href="https://www.researchgate.net/profile/Ahmad-Mahmod-2"
+                    target="_blank"
+                    rel="noopener"
+                    title="ResearchGate"
+                  >
+                    <i class="ai ai-researchgate fa"></i>
+                  </a>
+
+                  <a
+                    class="btn btn-default btn-round btn-lg btn-icon"
+                    href="https://github.com/ahmahmod"
+                    target="_blank"
+                    rel="noopener"
+                    title="GitHub"
+                  >
+                    <i class="fa fa-github"></i>
+                  </a>
+
+                  <a
+                    class="btn btn-default btn-round btn-lg btn-icon"
+                    href="https://www.linkedin.com/in/ahmadnawrasmahmod/"
+                    target="_blank"
+                    rel="noopener"
+                    title="LinkedIn"
+                  >
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- /Social links -->
+          </div>
         </div>
-      </div>
-      <div class="section">
+      </section>
+
+      <!-- =========================
+           News Section
+           ========================= -->
+      <section class="section" id="news">
+        <div class="container cc-reference">
+          <div class="h4 mb-4 text-center title">News</div>
+
+          <div class="card" data-aos="zoom-in">
+            <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
+              <!-- Carousel indicators -->
+              <ol class="carousel-indicators">
+                <li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
+                <li data-target="#cc-Indicators" data-slide-to="1"></li>
+                <li data-target="#cc-Indicators" data-slide-to="2"></li>
+                <li data-target="#cc-Indicators" data-slide-to="3"></li>
+              </ol>
+
+              <!-- Carousel slides -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-3 cc-reference-header">
+                      <img src="images/iot_journal.jpg" alt="Elsevier Internet of Things Journal" />
+                      <div class="h5 pt-2">Elsevier Internet of Things Journal</div>
+                      <p class="category">Published Paper</p>
+                    </div>
+                    <div class="col-lg-10 col-md-9">
+                      <p>
+                        My new paper—part of my PhD research—published in Elsevier Internet of Things Journal
+                        and it is
+                        <a
+                          href="https://www.sciencedirect.com/science/article/pii/S2542660525003439?via%3Dihub"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          available online now
+                        </a>.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-3 cc-reference-header">
+                      <img src="images/news-8.png" alt="AINA 2025" />
+                      <div class="h5 pt-2">AINA 2025 conference</div>
+                      <p class="category">Paper Presented</p>
+                    </div>
+                    <div class="col-lg-10 col-md-9">
+                      <p>
+                        I presented my paper "Programmable Solutions for Low-power Lossy Wireless Networks:
+                        A Study of SDN and Femto Containers" in The 39th International Conference on Advanced
+                        Information Networking and Applications (AINA-2025), Open University of Catalonia,
+                        Barcelona, Spain.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-3 cc-reference-header">
+                      <img src="images/news-8.png" alt="AINA 2025" />
+                      <div class="h5 pt-2">AINA 2025 conference</div>
+                      <p class="category">Conference Paper Accepted</p>
+                    </div>
+                    <div class="col-lg-10 col-md-9">
+                      <p>
+                        My paper "Programmable Solutions for Low-power Lossy Wireless Networks: A Study of
+                        SDN and Femto Containers" has been accepted in The 39th International Conference on
+                        Advanced Information Networking and Applications (AINA-2025), Open University of
+                        Catalonia, Barcelona, Spain. It is my first PhD's international paper.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-3 cc-reference-header">
+                      <img src="images/news-6.png" alt="IEEE Communications Magazine" />
+                      <div class="h5 pt-2">IEEE Comm. Magazine</div>
+                      <p class="category">Journal Paper Accepted</p>
+                    </div>
+                    <div class="col-lg-10 col-md-9">
+                      <p>
+                        My paper
+                        <a
+                          href="https://ieeexplore.ieee.org/abstract/document/10697434"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          "The Role of SDN to Improve Client Selection in Federated Learning"
+                        </a>
+                        has been accepted in IEEE Communications Magazine prestigious magazine, the paper is
+                        part of my Master's thesis prepared at Università della Calabria.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-3 cc-reference-header">
+                      <img src="images/news-5.png" alt="WCNC 2024" />
+                      <div class="h5 pt-2">WCNC 2024</div>
+                      <p class="category">Paper Available Online</p>
+                    </div>
+                    <div class="col-lg-10 col-md-9">
+                      <p>
+                        My paper entitled "SDN-Assisted Client Selection to Enhance the Quality of Federated
+                        Learning Processes" is available now online on
+                        <a
+                          href="https://ieeexplore.ieee.org/document/10570525"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          IEEE Xplore
+                        </a>, the paper is part of my Master's thesis prepared at Università della Calabria.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-3 cc-reference-header">
+                      <img src="images/news-4.jpg" alt="Algotel & CoRes 2024" />
+                      <div class="h5 pt-2">Algotel &amp; Cores 2024</div>
+                      <p class="category">Paper Acceptance</p>
+                    </div>
+                    <div class="col-lg-10 col-md-9">
+                      <p>
+                        My first PhD's paper entitled "Menu or a la carte? An architecture to make the data
+                        plane of constrained wireless networks programmable" has been accepted in
+                        <a
+                          href="https://algotelcores2024.sciencesconf.org/"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          Algotel/Cores 2024
+                        </a>, a national French conference. I am thrilled to have the paper accepted
+                        especially that I submitted within the first 4 months of my PhD's beginning.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-3 cc-reference-header">
+                      <img src="images/news-1.png" alt="University of Strasbourg" />
+                      <div class="h5 pt-2">University of Strasbourg</div>
+                      <p class="category">New Position</p>
+                    </div>
+                    <div class="col-lg-10 col-md-9">
+                      <p>
+                        I started my new research journey in ICube Lab in the University of Strasbourg under
+                        the supervision of Prof.
+                        <a
+                          href="https://clarinet.icube.unistra.fr/~montavont/index.html"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          Julien Montavont
+                        </a>
+                        and Prof.
+                        <a
+                          href="https://sites.google.com/view/thomasnoel/accueil"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          Thomas Noel
+                        </a>.
+                        PhD Topic: Software Defined Low-power Lossy Wireless Networks (SD-LLWNs).
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-3 cc-reference-header">
+                      <img src="images/news-3.png" alt="University of Calabria" />
+                      <div class="h5 pt-2">University of Calabria</div>
+                      <p class="category">Graduation</p>
+                    </div>
+                    <div class="col-lg-10 col-md-9">
+                      <p>
+                        I graduated from the University of Calabria in MSc Degree in Telecommunication
+                        Engineering: Smart Sensing, Computing and Networking. My
+                        <a
+                          href="https://www.researchgate.net/publication/374783805_Improving_the_Quality_of_Federated_Learning_using_Programmable_Networks"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          Master Thesis
+                        </a>
+                        was about Improving the Quality of Federated Learning using Programmable Networks
+                        under the supervision of Prof.
+                        <a
+                          href="https://scholar.google.it/citations?user=DLa81JMAAAAJ&hl=enPasquale"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          Pasquale Pace
+                        </a>
+                        and Prof.
+                        <a
+                          href="https://scholar.google.it/citations?user=HqrLLe0AAAAJ&hl=it"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          Antonio Iera
+                        </a>.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /carousel-inner -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+           About Section
+           ========================= -->
+      <section class="section" id="about">
         <div class="container">
-        
-        
-          <div class="button-container">
-  <a class="btn btn-default btn-round btn-lg btn-icon" href="https://scholar.google.com/citations?user=WNFGT_YAAAAJ&hl=en" target="_blank" rel="tooltip" title="Google Scholar"><i class="ai ai-google-scholar fa"></i></a>
-  
-  <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.researchgate.net/profile/Ahmad-Mahmod-2" target="_blank" rel="tooltip" title="Research Gate"><i class="ai ai-researchgate fa""></i></a>
-
-  <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/ahmahmod" target="_blank" rel="tooltip" title="GitHub"><i class="fa fa-github"></i></a>
-
-  <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/ahmadnawrasmahmod/" target="_blank" rel="tooltip" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-</div>
-
-
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-<div class="section" id="news">
-  <div class="container cc-reference">
-    <div class="h4 mb-4 text-center title">News</div>
-    <div class="card" data-aos="zoom-in">
-      <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
-          <li data-target="#cc-Indicators" data-slide-to="1"></li>
-          <li data-target="#cc-Indicators" data-slide-to="2"></li>
-          <li data-target="#cc-Indicators" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner">
-
-          <div class="carousel-item active">
+          <div class="card" data-aos="fade-up" data-aos-offset="10">
             <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/iot_journal.jpg" alt="Image"/>
-                <div class="h5 pt-2">Elsevier Internet of Things Journal</div>
-                <p class="category">Published Paper</p>
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <div class="h4 mt-0 title">About</div>
+                  <p>
+                    Hello! I am Ahmad Mahmod. PhD Student at
+                    <a
+                      href="https://reseaux.icube.unistra.fr/en/index.php?title=Home&index_php%2FMain_Page="
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      Networks Team
+                    </a>,
+                    <a href="https://icube.unistra.fr/en/" target="_blank" rel="noopener">
+                      ICube Laboratory
+                    </a>,
+                    <a href="https://www.unistra.fr/" target="_blank" rel="noopener">
+                      Strasbourg University
+                    </a>.
+                  </p>
+                  <p>
+                    My main research interest is programmable networks using Software Defined Network (SDN)
+                    specialized in IoT networks.
+                  </p>
+                  <p>
+                    I have an experience with Embedded Systems and Machine Learning especially Federated
+                    Learning.
+                  </p>
+                </div>
               </div>
-              <div class="col-lg-10 col-md-9">
-                <p> My new paper—part of my PhD research—published in Elsevier Internet of Things Journal 
-                    and it is <a href="https://www.sciencedirect.com/science/article/pii/S2542660525003439?via%3Dihub" target="_blank">available online now</a>.
-                </p>
+
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <div class="h4 mt-0 title">Basic Information</div>
+
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Email:</strong>
+                    </div>
+                    <div class="col-sm-8">mahmod (at) unistra (dot) fr</div>
+                  </div>
+
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Address:</strong>
+                    </div>
+                    <div class="col-sm-8">67000, Strasbourg, France</div>
+                  </div>
+
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Language:</strong>
+                    </div>
+                    <div class="col-sm-8">English, French, Italian, Arabic</div>
+                  </div>
+                </div>
               </div>
             </div>
+            <!-- /row -->
           </div>
+        </div>
+      </section>
 
-          <div class="carousel-item">
+      <!-- =========================
+           Education Section
+           ========================= -->
+      <section class="section" id="education">
+        <div class="container cc-experience">
+          <div class="h4 text-center mb-4 title">Education</div>
+
+          <!-- PhD -->
+          <div class="card">
             <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/news-8.png" alt="Image"/>
-                <div class="h5 pt-2">AINA 2025 conference</div>
-                <p class="category">Paper Presented</p>
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>Nov 2023 - Present</p>
+                  <div class="h5">
+                    <a href="https://icube.unistra.fr/en/" style="color: white" target="_blank" rel="noopener">
+                      ICube Lab - University of Strasbourg
+                    </a>
+                    - France
+                  </div>
+                </div>
               </div>
-              <div class="col-lg-10 col-md-9">
-                <p> I presented my paper "Programmable Solutions for Low-power Lossy Wireless Networks: A Study of SDN and Femto Containers" in 
-                  The 39th International Conference on Advanced Information Networking and Applications (AINA-2025), Open University of Catalonia, Barcelona, Spain.
-                </p>
+
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5">
+                    <img
+                      src="flags/france_flag.png"
+                      alt="France Flag"
+                      style="height: 20px"
+                    />
+                    <b>PhD Researcher</b>
+                  </div>
+
+                  <p style="font-size: 20px">
+                    3-years PhD in Software Defined Low-power Lossy Wireless Networks (SD-LLWNs)
+                    <br />
+                    Supervisors: Prof.
+                    <a
+                      href="https://clarinet.icube.unistra.fr/~montavont/index.html"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      Julien Montavont
+                    </a>
+                    and Prof.
+                    <a
+                      href="https://sites.google.com/view/thomasnoel/accueil"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      Thomas Noel
+                    </a>.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
 
-
-
-          <div class="carousel-item">
+          <!-- MSc -->
+          <div class="card">
             <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/news-8.png" alt="Image"/>
-                <div class="h5 pt-2">AINA 2025 conference</div>
-                <p class="category">Conference Paper Accepted</p>
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>Oct 2021 - Oct 2023</p>
+                  <div class="h5">
+                    <a href="https://unical.it" style="color: white" target="_blank" rel="noopener">
+                      University of Calabria
+                    </a>
+                    - Italy
+                  </div>
+                </div>
               </div>
-              <div class="col-lg-10 col-md-9">
-                <p> My paper "Programmable Solutions for Low-power Lossy Wireless Networks: A Study of SDN and Femto Containers"
-                  has been accepted in The 39th International Conference on Advanced Information Networking and Applications (AINA-2025), Open University of Catalonia, Barcelona, Spain. 
-                  It is my first PhD's international paper.
-                </p>
+
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5">
+                    <img
+                      src="flags/italy_flag.png"
+                      alt="Italy Flag"
+                      style="height: 20px"
+                    />
+                    <b>Master Degree</b>
+                  </div>
+                  <p style="font-size: 20px">
+                    Telecommunication Engineering: Smart Sensing, Computing and Networking
+                    <br />
+                    Supervisors: Prof.
+                    <a
+                      href="https://scholar.google.it/citations?user=DLa81JMAAAAJ&hl=enPasquale"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      Pasquale Pace
+                    </a>
+                    and Prof.
+                    <a
+                      href="https://scholar.google.it/citations?user=HqrLLe0AAAAJ&hl=it"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      Antonio Iera
+                    </a>.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="carousel-item">
+          <!-- BSc -->
+          <div class="card">
             <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/news-6.png" alt="Image"/>
-                <div class="h5 pt-2">IEEE Comm. Magazine</div>
-                <p class="category">Journal Paper Accepted</p>
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>Sep 2014 - Sep 2019</p>
+                  <div class="h5">
+                    <a
+                      href="https://tishreen.edu.sy/en?lang=en"
+                      style="color: white"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      Tishreen University
+                    </a>
+                    - Syria
+                  </div>
+                </div>
               </div>
-              <div class="col-lg-10 col-md-9">
-                <p> My paper <a href="https://ieeexplore.ieee.org/abstract/document/10697434" target="_blank">"The Role of SDN to Improve Client Selection in Federated Learning"</a>
-                  has been accepted in IEEE Communications Magazine prestigious magazine, the paper is part of my Master's thesis prepared at
-                  Università della Calabria.
-                </p>
-              </div>
-            </div>
-          </div>
 
-
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/news-5.png" alt="Image"/>
-                <div class="h5 pt-2">WCNC 2024</div>
-                <p class="category">Paper Available Online</p>
-              </div>
-              <div class="col-lg-10 col-md-9">
-                <p> My paper entitled "SDN-Assisted Client Selection to Enhance the Quality of Federated Learning Processes" 
-                  is available now online on <a href="https://ieeexplore.ieee.org/document/10570525" target="_blank">IEEE Xplore</a>, the paper is part of my Master's thesis prepared at
-                  Università della Calabria.
-                </p>
-              </div>
-            </div>
-          </div>
-
-
-           <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/news-4.jpg" alt="Image"/>
-                <div class="h5 pt-2">Algotel & Cores 2024</div>
-                <p class="category">Paper Acceptance</p>
-              </div>
-              <div class="col-lg-10 col-md-9">
-                <p> My first PhD's paper entitled "Menu or a la carte? An architecture to make the data plane of constrained wireless networks programmable" 
-                  has been accepted in <a href="https://algotelcores2024.sciencesconf.org/" target="_blank">Algotel/Cores 2024</a>, a national French conference.
-                  I am thrilled to have the paper accepted especially that I submitted within the first 4 months of my PhD's beginning.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/news-1.png" alt="Image"/>
-                <div class="h5 pt-2">University of Strasbourg</div>
-                <p class="category">New Position</p>
-              </div>
-              <div class="col-lg-10 col-md-9">
-                <p> I started my new research journey in ICube Lab in the University of Strasbourg under the supervision of
-                  Prof. <a href="https://clarinet.icube.unistra.fr/~montavont/index.html" target="_blank">Julien Montavont</a>  and Prof. 
-                  <a href="https://sites.google.com/view/thomasnoel/accueil" target="_blank">Thomas Noel</a>.
-                  PhD Topic: Software Defined Low-power Lossy Wireless Networks (SD-LLWNs).
-                </p>
-              </div>
-            </div>
-          </div>
-
-          
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/news-3.png" alt="Image"/>
-                <div class="h5 pt-2">University of Calabria</div>
-                <p class="category">Graduation</p>
-              </div>
-              <div class="col-lg-10 col-md-9">
-                <p> I graudated from the University of Calabria in MSc Degree in Telecommunication Engineering: Smart Sensing, Computing and Networking.
-                  My <a href="https://www.researchgate.net/publication/374783805_Improving_the_Quality_of_Federated_Learning_using_Programmable_Networks" target="_blank">Master Thesis</a> was about Improving the Quality of Federated Learning using Programmable Networks
-                  under the supervision of 
-                  Prof. <a href="https://scholar.google.it/citations?user=DLa81JMAAAAJ&hl=enPasquale" target="_blank">Pasquale Pace</a>
-                   and Prof. <a href="https://scholar.google.it/citations?user=HqrLLe0AAAAJ&hl=it" target="_blank">Antonio Iera.</a>
-
-                </p>
-              </div>
-            </div>
-          </div>
-        
-
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="section" id="about">
-  <div class="container">
-    <div class="card" data-aos="fade-up" data-aos-offset="10">
-      <div class="row">
-        <div class="col-lg-6 col-md-12">
-          <div class="card-body">
-            <div class="h4 mt-0 title">About</div>
-            <p>Hello! I am Ahmad Mahmod. PhD Student at <a href="https://reseaux.icube.unistra.fr/en/index.php?title=Home&index_php%2FMain_Page=" target="_blank">Networks Team</a>, 
-              <a href="https://icube.unistra.fr/en/" target="_blank">ICube Laboratory</a>, <a href="https://www.unistra.fr/" target="_blank">Strasbourg University</a>.</p>
-            <p>My main research interest is programmable networks using Software Defined Network (SDN) specialized in IoT networks.</p>
-            <p>I have an experience with Embedded Systems and Machine Learning especially Federated Learning.</p>
-
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12">
-          <div class="card-body">
-            <div class="h4 mt-0 title">Basic Information</div>
-            
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
-              <div class="col-sm-8">mahmod (at) unistra (dot) fr</div>
-            </div>
-            
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
-              <div class="col-sm-8">67000, Strasbourg, France</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
-              <div class="col-sm-8">English, French, Italian, Arabic</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="section" id="education">
-  <div class="container cc-experience">
-    <div class="h4 text-center mb-4 title">Education</div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>Nov 2023 - Present</p>
-            
-            <div class="h5"><a href="https://icube.unistra.fr/en/" style="color: white;" target="_blank">ICube Lab - University of Strasbourg</a> - France</div>
-            
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5"><img src="flags/france_flag.png" alt="France Flag" style="height:20px;">  <b>PhD Researcher</b></div>
-            
-            <p style="font-size: 20px;">3-years PhD in Software Defined Low-power Lossy Wireless Networks (SD-LLWNs)
-              <br>Supervisors: Prof. <a href="https://clarinet.icube.unistra.fr/~montavont/index.html" target="_blank">Julien Montavont</a>  and Prof. 
-              <a href="https://sites.google.com/view/thomasnoel/accueil"  target="_blank">Thomas Noel</a>.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>Oct 2021 - Oct 2023</p>
-            <div class="h5"><a href="https://unical.it" style="color: white;" target="_blank">University of Calabria</a> - Italy</div>
-            
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5"><img src="flags/italy_flag.png" alt="Italy Flag" style="height:20px;"> <b>Master Degree</b></div>
-            <p style="font-size: 20px;">Telecommunication Engineering: Smart Sensing, Computing and Networking
-              <br>Supervisors: Prof. <a href="https://scholar.google.it/citations?user=DLa81JMAAAAJ&hl=enPasquale" target="_blank">Pasquale Pace</a>
-              and Prof. <a href="https://scholar.google.it/citations?user=HqrLLe0AAAAJ&hl=it" target="_blank">Antonio Iera.</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>Sep 2014 - Sep 2019</p>
-            
-            <div class="h5"><a href="https://tishreen.edu.sy/en?lang=en" style="color: white;" target="_blank">Tishreen University</a> - Syria</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5"><img src="flags/syria_flag.png" alt="Syria Flag" style="height:20px;">  <b>Bachelor Degree</b></div>
-            <p style="font-size: 20px;">Communication and Electronic Engineering
-            <br>Supervisors: Prof. <a href="https://scholar.google.com/citations?hl=fr&user=sOOKYlQAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Ghadir Madi</a>.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="section" id="publications">
-  <div class="container cc-experience">
-    <div class="h4 text-center mb-4 title">Publications</div>
-
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <div class="h5">Theses</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">
-              <ul>
-                <li>
-                  <b>Ahmad Mahmod</b>.  <a href="files/msc_thesis.pdf" target="_blank"><i>Improving the Quality of Federated Learning using Programmable Networks</i></a>. 
-                  Master Thesis in Telecommunication Engineering: Smart Sensing, Computing and Networking.
-                  University of Calabria, Italy, 2023.
-                </li>
-                <br>
-                <li>
-                  <b>Ahmad Mahmod</b>.  <i>Millimeter Waves Channel Simulation using MATLAB</i>. 
-                  Bachelor Thesis in Communication and Electronic Engineering.
-                  Tishreen University, Syria, 2019.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <div class="h5">International Journals</div>
-          </div>
-        </div>
-
-
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">
-              <ul>
-                <li>
-                  <b>Ahmad Mahmod</b>, J. Montavont and T. Noel. <a href="files/pensil.pdf" target="_blank">
-                  <i>PENSIL: Programmable network stack for low-power lossy IoT networks using lightweight-virtualization</i></a>.
-                  Elsevier Internet of Things Journal 2025.
-                </li>
-
-
-                <li>
-                  <b>Ahmad Mahmod</b>, P Pace, A Iera. <a href="files/COM2024.pdf" target="_blank">
-                  <i>The Role of SDN to Improve Client Selection in Federated Learning</i></a>.
-                  IEEE Communications Magazine 2024.
-                </li>
-
-
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-
-
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <div class="h5">International Conferences</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">
-              <ul>
-                <li>
-                  <b>Ahmad Mahmod</b>, J. Montavont, T. Noel. <a href="files/AINA2025.pdf" target="_blank">
-                  <i>Programmable Solutions for Low-power Lossy Wireless Networks: A Study of SDN and Femto Containers</i></a>.
-                  AINA 2025.
-                </li>
-
-                <li>
-                  <b>Ahmad Mahmod</b>, P Pace, A Iera. <a href="files/WCNC2024.pdf" target="_blank">
-                  <i>SDN-Assisted Client Selection to Enhance the Quality of Federated Learning Processes</i></a>.
-                  IEEE WCNC 2024.
-                </li>
-
-                <li>
-                  <b>Ahmad Mahmod</b>, G Caliciuri, P Pace, A Iera.  <a href="files/ACM2023.pdf" target="_blank">
-                  <i>Improving the quality of Federated Learning processes via Software Defined Networking</i></a>. 
-                  Proceedings of the 1st International Workshop on Networked AI Systems 2023.
-                </li>
-                <br>
-            
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <div class="h5">National Conferences</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">
-              <ul>
-                <li>
-                  <b>Ahmad Mahmod</b>, J. Montavont, T. Noel.  <a href="files/CORES2024.pdf" target="_blank">
-                  <i>Menu or a la carte? An architecture for programming the data plane of constrained wireless networks</i></a>. 
-                  CoRes 2024 - 9èmes Rencontres Francophones sur la Conception de Protocoles, l’Évaluation de Performance et l’Expérimentation des Réseaux de Communication (CoRes 2024).
-                </li>
-                <br>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section" id="teaching">
-      <div class="container cc-experience">
-        <div class="h4 text-center mb-4 title">Teaching</div>
-
-
-
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>2025/2026</p>
-                <div class="h5">University of Strasbourg</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5"><b>Wireless Networks</b></div>
-                <p style="font-size: 20px; color: gray;"><b>Course Level: Master-1 (Lectures, Excercies & Practical Work)</b>
-                <p style="font-size: 20px;">Teaching hours volume: <b>18 hours</b>.
-                <br>Course Responsible.
-                </p>
-              </div>
-            </div>
-          </div> 
-        </div>
-
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>2024/2025 & 2025/2026</p>
-                <div class="h5">University of Strasbourg</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5"><b>Internet of Things</b></div>
-                <p style="font-size: 20px; color: gray;"><b>Course Level: Master-2 (Practical Work)</b>
-                <p style="font-size: 20px;">Teaching hours volume: 2024/2025: <b>12 hours</b> & 2025/2026: <b>24 hours</b>.
-                <br>Course Responsible: <a href="https://clarinet.icube.unistra.fr/~montavont/index.html" target="_blank">Julien Montavont</a>.
-                </p>
-              </div>
-            </div>
-          </div> 
-        </div>
-
-
-
-
-      </div>
-    </div>
-
-
-    <div class="section" id="activities">
-      <div class="container cc-experience">
-        <div class="h4 text-center mb-4 title">Activities</div>
-    
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <div class="h5">Certificates</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h7">
-                  <ul>
-                    <li>
-                      <b>Excellence Prize for the ranked-first student</b> in the MSc in Telecommunication Engineering: Smart Sensing, Computing and Networking, Second Year.
-                      University of Calabria, Italy, 2023.
-                    </li>
-                    <br>
-                    <li>
-                      <b>Excellence Prize for the ranked-first student</b> in the MSc in Telecommunication Engineering: Smart Sensing, Computing and Networking, First Year.
-                      University of Calabria, Italy, 2022.
-                    </li>
-                    <br>
-                    <li>
-                      <b>Excellence Certificate for the First Graduated</b> in the BSc of Communication and Electronic Engineering, Fifth Year.
-                      Tishreen University, Syria, 2019.
-                    </li>
-                    <br>
-                    <li>
-                      <b>Excellence Certificate for the ranked-first student</b> in the BSc of Communication and Electronic Engineering, Fourth Year.
-                      Tishreen University, Syria, 2018.
-                    </li>
-                    <br>
-                    <li>
-                      <b>Excellence Certificate for the ranked-first student</b> in the BSc of Communication and Electronic Engineering, Third Year.
-                      Tishreen University, Syria, 2017.
-                    </li>
-                    <br>
-                    <li>
-                      <b>Excellence Certificate for the ranked-first student</b> in the BSc of Communication and Electronic Engineering, Second Year.
-                      Tishreen University, Syria, 2016.
-                    </li>
-                    <br>
-                    <li>
-                      <b>Excellence Certificate for the ranked-first student</b> in the BSc of Communication and Electronic Engineering, First Year.
-                      Tishreen University, Syria, 2015.
-                    </li>
-                  </ul>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5">
+                    <img
+                      src="flags/syria_flag.png"
+                      alt="Syria Flag"
+                      style="height: 20px"
+                    />
+                    <b>Bachelor Degree</b>
+                  </div>
+                  <p style="font-size: 20px">
+                    Communication and Electronic Engineering
+                    <br />
+                    Supervisors: Prof.
+                    <a
+                      href="https://scholar.google.com/citations?hl=fr&user=sOOKYlQAAAAJ&view_op=list_works&sortby=pubdate"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      Ghadir Madi
+                    </a>.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-    
-    
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <div class="h5">Training</div>
+      </section>
+
+      <!-- =========================
+           Publications Section
+           ========================= -->
+      <section class="section" id="publications">
+        <div class="container cc-experience">
+          <div class="h4 text-center mb-4 title">Publications</div>
+
+          <!-- Theses -->
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <div class="h5">Theses</div>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5">
+                    <ul>
+                      <li>
+                        <b>Ahmad Mahmod</b>.
+                        <a href="files/msc_thesis.pdf" target="_blank" rel="noopener">
+                          <i>Improving the Quality of Federated Learning using Programmable Networks</i>
+                        </a>.
+                        Master Thesis in Telecommunication Engineering: Smart Sensing, Computing and Networking.
+                        University of Calabria, Italy, 2023.
+                      </li>
+                      <br />
+                      <li>
+                        <b>Ahmad Mahmod</b>. <i>Millimeter Waves Channel Simulation using MATLAB</i>.
+                        Bachelor Thesis in Communication and Electronic Engineering.
+                        Tishreen University, Syria, 2019.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">
-                  <ul>
-                    <li>
-                      <b>Lecturer</b>. Cellular Networks Course, BIT Institute<br>
-                      <span style="font-size: smaller; color: gray;"> Latakia, Syria, 2019-2021. </span>
-                    </li>
-                    <br>
-                    <li>
-                      <b>Lecturer</b>. Computer Networks Course, BIT Institute <br>
-                      <span style="font-size: smaller; color: gray;"> Latakia, Syria, 2019-2021. </span>
-                    </li>
-                  </ul>
+          </div>
+
+          <!-- International Journals -->
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <div class="h5">International Journals</div>
+                </div>
+              </div>
+
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5">
+                    <ul>
+                      <li>
+                        <b>Ahmad Mahmod</b>, J. Montavont and T. Noel.
+                        <a href="files/pensil.pdf" target="_blank" rel="noopener">
+                          <i>
+                            PENSIL: Programmable network stack for low-power lossy IoT networks using
+                            lightweight-virtualization
+                          </i>
+                        </a>.
+                        Elsevier Internet of Things Journal 2025.
+                      </li>
+
+                      <li>
+                        <b>Ahmad Mahmod</b>, P Pace, A Iera.
+                        <a href="files/COM2024.pdf" target="_blank" rel="noopener">
+                          <i>The Role of SDN to Improve Client Selection in Federated Learning</i>
+                        </a>.
+                        IEEE Communications Magazine 2024.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- International Conferences -->
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <div class="h5">International Conferences</div>
+                </div>
+              </div>
+
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5">
+                    <ul>
+                      <li>
+                        <b>Ahmad Mahmod</b>, J. Montavont, T. Noel.
+                        <a href="files/AINA2025.pdf" target="_blank" rel="noopener">
+                          <i>
+                            Programmable Solutions for Low-power Lossy Wireless Networks: A Study of SDN and
+                            Femto Containers
+                          </i>
+                        </a>.
+                        AINA 2025.
+                      </li>
+
+                      <li>
+                        <b>Ahmad Mahmod</b>, P Pace, A Iera.
+                        <a href="files/WCNC2024.pdf" target="_blank" rel="noopener">
+                          <i>SDN-Assisted Client Selection to Enhance the Quality of Federated Learning Processes</i>
+                        </a>.
+                        IEEE WCNC 2024.
+                      </li>
+
+                      <li>
+                        <b>Ahmad Mahmod</b>, G Caliciuri, P Pace, A Iera.
+                        <a href="files/ACM2023.pdf" target="_blank" rel="noopener">
+                          <i>Improving the quality of Federated Learning processes via Software Defined Networking</i>
+                        </a>.
+                        Proceedings of the 1st International Workshop on Networked AI Systems 2023.
+                      </li>
+                      <br />
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- National Conferences -->
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <div class="h5">National Conferences</div>
+                </div>
+              </div>
+
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5">
+                    <ul>
+                      <li>
+                        <b>Ahmad Mahmod</b>, J. Montavont, T. Noel.
+                        <a href="files/CORES2024.pdf" target="_blank" rel="noopener">
+                          <i>
+                            Menu or a la carte? An architecture for programming the data plane of constrained
+                            wireless networks
+                          </i>
+                        </a>.
+                        CoRes 2024 - 9èmes Rencontres Francophones sur la Conception de Protocoles,
+                        l’Évaluation de Performance et l’Expérimentation des Réseaux de Communication.
+                      </li>
+                      <br />
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <div class="h5">Volunteering</div>
+      <!-- =========================
+           Teaching Section
+           ========================= -->
+      <section class="section" id="teaching">
+        <div class="container cc-experience">
+          <div class="h4 text-center mb-4 title">Teaching</div>
+
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>2025/2026</p>
+                  <div class="h5">University of Strasbourg</div>
+                </div>
+              </div>
+
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5"><b>Wireless Networks</b></div>
+                  <p style="font-size: 20px; color: gray">
+                    <b>Course Level: Master-1 (Lectures, Exercises &amp; Practical Work)</b>
+                  </p>
+                  <p style="font-size: 20px">
+                    Teaching hours volume: <b>18 hours</b>.
+                    <br />
+                    Course Responsible.
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">
-                  <ul>
-                    <li>
-                      <b>Workshops Trainer</b>. Telecommunication Systems Simulation using MATLAB <br>
-                      <span style="font-size: smaller; color: gray;"> Skills and Career Center, Tishreen University, Latakia, Syria, 2019-2021.</span>
-                    </li>
-                    <br>
-                    <li>
-                      <b>Workshops Trainer</b>. Networks Programming using Python <br>
-                      <span style="font-size: smaller; color: gray;"> Skills and Career Center, Tishreen University, Latakia, Syria, 2019-2021.</span>
-                    </li>
-                   
-                  </ul>
+          </div>
+
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>2024/2025 &amp; 2025/2026</p>
+                  <div class="h5">University of Strasbourg</div>
+                </div>
+              </div>
+
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5"><b>Internet of Things</b></div>
+                  <p style="font-size: 20px; color: gray">
+                    <b>Course Level: Master-2 (Practical Work)</b>
+                  </p>
+                  <p style="font-size: 20px">
+                    Teaching hours volume: 2024/2025: <b>12 hours</b> &amp; 2025/2026: <b>24 hours</b>.
+                    <br />
+                    Course Responsible:
+                    <a
+                      href="https://clarinet.icube.unistra.fr/~montavont/index.html"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      Julien Montavont
+                    </a>.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
 
+      <!-- =========================
+           Activities Section
+           ========================= -->
+      <section class="section" id="activities">
+        <div class="container cc-experience">
+          <div class="h4 text-center mb-4 title">Activities</div>
 
-    </div>
+          <!-- Certificates -->
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <div class="h5">Certificates</div>
+                </div>
+              </div>
+
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h7">
+                    <ul>
+                      <li>
+                        <b>Excellence Prize for the ranked-first student</b> in the MSc in Telecommunication
+                        Engineering: Smart Sensing, Computing and Networking, Second Year. University of
+                        Calabria, Italy, 2023.
+                      </li>
+                      <br />
+                      <li>
+                        <b>Excellence Prize for the ranked-first student</b> in the MSc in Telecommunication
+                        Engineering: Smart Sensing, Computing and Networking, First Year. University of
+                        Calabria, Italy, 2022.
+                      </li>
+                      <br />
+                      <li>
+                        <b>Excellence Certificate for the First Graduated</b> in the BSc of Communication and
+                        Electronic Engineering, Fifth Year. Tishreen University, Syria, 2019.
+                      </li>
+                      <br />
+                      <li>
+                        <b>Excellence Certificate for the ranked-first student</b> in the BSc of Communication
+                        and Electronic Engineering, Fourth Year. Tishreen University, Syria, 2018.
+                      </li>
+                      <br />
+                      <li>
+                        <b>Excellence Certificate for the ranked-first student</b> in the BSc of Communication
+                        and Electronic Engineering, Third Year. Tishreen University, Syria, 2017.
+                      </li>
+                      <br />
+                      <li>
+                        <b>Excellence Certificate for the ranked-first student</b> in the BSc of Communication
+                        and Electronic Engineering, Second Year. Tishreen University, Syria, 2016.
+                      </li>
+                      <br />
+                      <li>
+                        <b>Excellence Certificate for the ranked-first student</b> in the BSc of Communication
+                        and Electronic Engineering, First Year. Tishreen University, Syria, 2015.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Training -->
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <div class="h5">Training</div>
+                </div>
+              </div>
+
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5">
+                    <ul>
+                      <li>
+                        <b>Lecturer</b>. Cellular Networks Course, BIT Institute<br />
+                        <span style="font-size: smaller; color: gray">Latakia, Syria, 2019-2021.</span>
+                      </li>
+                      <br />
+                      <li>
+                        <b>Lecturer</b>. Computer Networks Course, BIT Institute<br />
+                        <span style="font-size: smaller; color: gray">Latakia, Syria, 2019-2021.</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Volunteering -->
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <div class="h5">Volunteering</div>
+                </div>
+              </div>
+
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5">
+                    <ul>
+                      <li>
+                        <b>Workshops Trainer</b>. Telecommunication Systems Simulation using MATLAB<br />
+                        <span style="font-size: smaller; color: gray">
+                          Skills and Career Center, Tishreen University, Latakia, Syria, 2019-2021.
+                        </span>
+                      </li>
+                      <br />
+                      <li>
+                        <b>Workshops Trainer</b>. Networks Programming using Python<br />
+                        <span style="font-size: smaller; color: gray">
+                          Skills and Career Center, Tishreen University, Latakia, Syria, 2019-2021.
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================
+         Footer
+         ========================= -->
     <footer class="footer">
       <div class="container text-center">
-        <a class="btn btn-default btn-round btn-lg btn-icon" href="https://scholar.google.com/citations?user=WNFGT_YAAAAJ&hl=en" target="_blank" rel="tooltip" title="Google Scholar"><i class="ai ai-google-scholar fa"></i></a>
-  
-        <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.researchgate.net/profile/Ahmad-Mahmod-2" target="_blank" rel="tooltip" title="GitHub"><i class="ai ai-researchgate fa""></i></a>
+        <a
+          class="btn btn-default btn-round btn-lg btn-icon"
+          href="https://scholar.google.com/citations?user=WNFGT_YAAAAJ&hl=en"
+          target="_blank"
+          rel="noopener"
+          title="Google Scholar"
+        >
+          <i class="ai ai-google-scholar fa"></i>
+        </a>
 
-        <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/ahmahmod" target="_blank" rel="tooltip" title="GitHub"><i class="fa fa-github"></i></a>
+        <a
+          class="btn btn-default btn-round btn-lg btn-icon"
+          href="https://www.researchgate.net/profile/Ahmad-Mahmod-2"
+          target="_blank"
+          rel="noopener"
+          title="ResearchGate"
+        >
+          <i class="ai ai-researchgate fa"></i>
+        </a>
 
-        <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/ahmadnawrasmahmod/" target="_blank" rel="tooltip" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+        <a
+          class="btn btn-default btn-round btn-lg btn-icon"
+          href="https://github.com/ahmahmod"
+          target="_blank"
+          rel="noopener"
+          title="GitHub"
+        >
+          <i class="fa fa-github"></i>
+        </a>
 
+        <a
+          class="btn btn-default btn-round btn-lg btn-icon"
+          href="https://www.linkedin.com/in/ahmadnawrasmahmod/"
+          target="_blank"
+          rel="noopener"
+          title="LinkedIn"
+        >
+          <i class="fa fa-linkedin"></i>
+        </a>
       </div>
+
       <div class="h4 title text-center">Ahmad Mahmod</div>
+
       <div class="text-center text-muted">
-        <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
+        <p>
+          &copy; Creative CV. All rights reserved.<br />
+          Design -
+          <a class="credit" href="https://templateflip.com" target="_blank" rel="noopener">
+            TemplateFlip
+          </a>
+        </p>
       </div>
     </footer>
+
+    <!-- =========================
+         Scripts (load at end for performance)
+         ========================= -->
     <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
     <script src="js/core/popper.min.js?ver=1.1.0"></script>
     <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
